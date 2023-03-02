@@ -1,6 +1,6 @@
-function reverseInPlace(input){
+function reverseInPlace(input) {
 
-    for(let index = 0; index < input.length / 2; index++){
+    for (let index = 0; index < input.length / 2; index++) {
         let cur = input.length - 1 - index;
         let temp = input[index];
 
